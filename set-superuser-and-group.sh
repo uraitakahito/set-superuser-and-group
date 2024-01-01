@@ -2,7 +2,7 @@
 
 set -eo pipefail
 
-if [ $# != 3 ]; then
+if [ $# != 4 ]; then
     echo "Argument values are: " $*
     exit 1
 fi
